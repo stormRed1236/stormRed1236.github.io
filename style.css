@@ -1,0 +1,81 @@
+:root {
+        --Background: #1e90ff; 
+        --Headers: #ffffff;
+        --Paragraph: #ffffff, Verdana, Geneva, Tahoma, sans-serif;
+        --Highlight: #d2d600;
+
+        --H1_font:  Verdana, Geneva, Tahoma, sans-serif;
+        --H1_style:  Verdana, Geneva, Tahoma, sans-serif;
+        --H1_font:  Verdana, Geneva, Tahoma, sans-serif;
+        --H1_font:  Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+body {
+        background-color: var(--Background);
+}  
+
+a {
+        color: var(--Highlight);
+        font-style: italic;
+    }
+
+p {
+        color: var(--Paragraph);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+h1 {
+        color: var(--Headers);
+        font-family: var(--Headers);
+    }
+
+
+h2 {
+    color: var(--Headers);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+h3 {
+    color: var(--Headers);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+
+
+h4 {
+    color: var(--Headers);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+p {
+    border: 10px solid var(--Highlight);
+}
+
+aside {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: var(--Paragraph);
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+label {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: var(--Paragraph);
+    }
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+[type="submit"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--Paragraph);
+    background-color: var(--Background);
+    border: 3px solid var(--Highlight);
+    border-radius: 25%;
+    padding: 5px;
+}
